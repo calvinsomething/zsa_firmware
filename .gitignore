@@ -30,13 +30,6 @@ quantum/version.h
 *.qmk
 *.uf2
 
-# Old-style QMK Makefiles
-/keyboards/**/Makefile
-
-# kbfirmware....
-/keyboards/**/kb.h
-/keyboards/**/kb.c
-
 # Eclipse/PyCharm/Other IDE Settings
 *.iml
 .browse.VC.db*
@@ -92,7 +85,6 @@ user_song_list.h
 /util/win_downloaded
 /users/
 /layouts/
-/keyboards/*
 
 # clangd
 compile_commands.json
